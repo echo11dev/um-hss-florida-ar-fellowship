@@ -1,0 +1,11 @@
+# Static site in the MRD Projects workspace.
+# A new web service defaults to a paid plan if plan is omitted.
+services:
+  - type: web
+    name: um-hss-ar-fellowship
+    runtime: static
+    plan: free
+    region: oregon
+    branch: main
+    buildCommand: echo "static site"
+    staticPublishPath: .
