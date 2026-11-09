@@ -1,11 +1,9 @@
-# Static site in the MRD Projects workspace.
-# A new web service defaults to a paid plan if plan is omitted.
+# Live static site: um-hss-ar-fellowship (srv-dboieu3rjlhs73bigpfg)
+# https://um-hss-ar-fellowship.onrender.com
 services:
   - type: web
     name: um-hss-ar-fellowship
     runtime: static
-    plan: free
-    region: oregon
     branch: main
     buildCommand: echo "static site"
     staticPublishPath: .

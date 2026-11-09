@@ -14,4 +14,8 @@ Do not invent alumni names or yearly case counts. Leave a cell blank until the p
 
 ## Deploy
 
-Render static site `um-hss-ar-fellowship`, blueprint in `render.yaml`. Pushes to `main` deploy automatically.
+Render static site `um-hss-ar-fellowship` (`srv-dboieu3rjlhs73bigpfg`) in the MRD Projects workspace.
+
+https://um-hss-ar-fellowship.onrender.com
+
+Pushes to `main` deploy automatically. The blueprint is `render.yaml`.
